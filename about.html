@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Technological edge through quartz glass</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<style>
+		:root {
+			--mainHeader: url(img/main-bg.png);
+			--mainActivity: url(img/activity/bg.png);
+			--menu-BG: url(img/menu-BG.png);
+			--form_bg: url(img/fomr-BG.png);
+			--mainHeaderAbout: url(img/about/bg-head.png);
+		}
+		@media (max-width : 992px){
+			:root {
+				--mainActivity: url(img/activity/bg_mob.png);
+				--form_bg: url(img/fomr-BG_mob.png);
+			}
+		}
+		@media (max-width : 768px){
+			:root {
+				--mainHeader: url(img/main-bg_mob.png);
+			}
+		}
+		@media (max-width : 480px){
+			:root {
+				--form_bg: url(img/fomr-BG_mob2.png);
+				--mainHeaderAbout: url(img/about/bg-head_mob.png);
+			}
+		}
+	</style>
+
+</head>
+
+<body class="page page--about">
+
+	<div class="main--wrapper">
+		<header class="header">
+			<div class="header--top">
+				<div class="container">
+					<div class="row">
+						<div class="header--top__wrapper">
+							<div class="header--top__contacts">
+								<a href="tel:+48(60)859-09-08" class="phone">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M2.5 4.16667C2.5 3.24619 3.24619 2.5 4.16667 2.5H6.89937C7.25806 2.5 7.57651 2.72953 7.68994 3.06981L8.93811 6.81434C9.06926 7.20777 8.89115 7.63776 8.52022 7.82322L6.63917 8.76375C7.55771 10.801 9.19898 12.4423 11.2363 13.3608L12.1768 11.4798C12.3622 11.1088 12.7922 10.9307 13.1857 11.0619L16.9302 12.3101C17.2705 12.4235 17.5 12.7419 17.5 13.1006V15.8333C17.5 16.7538 16.7538 17.5 15.8333 17.5H15C8.09644 17.5 2.5 11.9036 2.5 5V4.16667Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>+48(60)859-09-08</span>
+								</a>
+								<a href="mailto:sale@quartz-prom.net" class="mail">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M2.5 6.66675L9.0755 11.0504C9.63533 11.4236 10.3647 11.4236 10.9245 11.0504L17.5 6.66675M4.16667 15.8334H15.8333C16.7538 15.8334 17.5 15.0872 17.5 14.1667V5.83341C17.5 4.91294 16.7538 4.16675 15.8333 4.16675H4.16667C3.24619 4.16675 2.5 4.91294 2.5 5.83341V14.1667C2.5 15.0872 3.24619 15.8334 4.16667 15.8334Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>sale@quartz-prom.net</span>
+								</a>
+								<a target="_blank" href="https://www.google.com/maps/place/POL-AQUA+SA,+Adama+Branickiego+15,+02-972+Warszawa,+%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0/data=!4m2!3m1!1s0x47192d68e232de05:0x8832059d2bc59b72?sa=X&ved=2ahUKEwikmKC6rvqCAxXrVfEDHcFUD90Q8gF6BAgSEAA" class="mail">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M14.714 13.8807C13.9864 14.6083 12.5188 16.0758 11.4134 17.1813C10.6323 17.9624 9.36751 17.9623 8.58646 17.1813C7.50084 16.0957 6.06038 14.6552 5.28587 13.8807C2.68238 11.2772 2.68238 7.05612 5.28587 4.45262C7.88937 1.84913 12.1105 1.84913 14.714 4.45262C17.3175 7.05612 17.3175 11.2772 14.714 13.8807Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M12.4999 9.16667C12.4999 10.5474 11.3806 11.6667 9.99992 11.6667C8.61921 11.6667 7.49992 10.5474 7.49992 9.16667C7.49992 7.78596 8.61921 6.66667 9.99992 6.66667C11.3806 6.66667 12.4999 7.78596 12.4999 9.16667Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>Adama Branickiego 15, 02-972 Warsaw</span>
+								</a>
+							</div>
+							<div class="header--top__right">
+								<button class="requestAquote open--requestAquote">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7 8H17M7 12H11M12 20L8 16H5C3.89543 16 3 15.1046 3 14V6C3 4.89543 3.89543 4 5 4H19C20.1046 4 21 4.89543 21 6V14C21 15.1046 20.1046 16 19 16H16L12 20Z" stroke="#0F67FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>Request a quote</span>
+								</button>
+								<ul class="header--top__language">
+									<li class="current-lang"><a href="#">EN</a></li>
+									<li class="lang-item"><a href="#">PL</a></li>
+									<li class="lang-item"><a href="#">DEU</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header--bottom">
+				<div class="container">
+					<div class="row">
+						<div class="header--bottom__wrapper">
+							<div class="header--bottom__logo">
+								<img src="img/logo.svg" alt="quartzprom - Technological edge through quartz glass">
+							</div>
+							<ul class="menu">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Products </a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Research</a></li>
+								<li><a href="#">Engineering</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+							<form action="#" class="search">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<input type="text" placeholder="Search...">
+							</form>
+							<button class="menu--burger">
+								<strong>Menu</strong>
+								<div class="menu--burger__wrapper">
+									<span></span><span></span><span></span>
+								</div>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="menu--mobile" style="background-image: var(--menu-BG);">
+			<div class="menu--mobile__wrapper">
+				<div class="menu--mobile__top">
+					<ul class="header--top__language">
+						<li class="current-lang"><a href="#">EN</a></li>
+						<li class="lang-item"><a href="#">PL</a></li>
+						<li class="lang-item"><a href="#">DEU</a></li>
+					</ul>
+					<button class="search--button">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</button>
+					<form action="#" class="search">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						<input type="text" placeholder="Search...">
+					</form>
+					<button class="menu--burger">
+						<strong>Menu</strong>
+						<div class="menu--burger__wrapper">
+							<span></span><span></span><span></span>
+						</div>
+					</button>
+				</div>
+				<div class="menu--mobile__bottom">
+					<div class="menu--mobile__bottom--left">
+						<ul class="menu menu--mobile__inner">
+							<li><a href="#1">About</a></li>
+							<li>
+								<a href="#">Products </a>
+								<ul class="sub-menu">
+									<li><a href="#32">Optical windows</a></li>
+									<li><a href="#123">Prisms</a></li>
+									<li><a href="#123">Optical filters & coatings</a></li>
+									<li><a href="#123">Optical mirrors</a></li>
+									<li><a href="#123">IR & Laser optical components</a></li>
+									<li><a href="#123">UV optics</a></li>
+									<li><a href="#123">Optical windows</a></li>
+									<li><a href="#12">Prisms</a></li>
+									<li><a href="#2">Optical filters & coatings</a></li>
+									<li><a href="#123">Optical mirrors</a></li>
+								</ul>
+							</li>
+							<li><a href="#2">Services</a></li>
+							<li><a href="#3">Research</a></li>
+							<li><a href="#4">Engineering</a></li>
+							<li><a href="#5">Contact Us</a></li>
+						</ul>
+						<div class="social">
+							<a href="#">
+								<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M29.3332 16.0807C29.3332 8.67184 23.3643 2.6665 15.9998 2.6665C8.63539 2.6665 2.6665 8.67184 2.6665 16.0807C2.6665 22.7776 7.54117 28.327 13.9163 29.3332V19.959H10.5314V16.0798H13.9163V13.1252C13.9163 9.76339 15.9065 7.90562 18.9527 7.90562C20.4105 7.90562 21.9376 8.16784 21.9376 8.16784V11.4692H20.2549C18.599 11.4692 18.0834 12.5038 18.0834 13.5652V16.0807H21.7812L21.1901 19.9581H18.0834V29.3332C24.4585 28.327 29.3332 22.7776 29.3332 16.0807Z" fill="#9EA7B8"/>
+								</svg>
+							</a>
+							<a href="#">
+								<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M26.3892 7.21961C27.536 7.52769 28.4431 8.43485 28.7512 9.58161C29.3161 11.6698 29.3332 16.0001 29.3332 16.0001C29.3332 16.0001 29.3332 20.3476 28.7683 22.4186C28.4603 23.5654 27.5531 24.4725 26.4063 24.7806C24.3353 25.3454 15.9998 25.3454 15.9998 25.3454C15.9998 25.3454 7.66436 25.3454 5.59333 24.7806C4.44656 24.4725 3.53942 23.5654 3.23133 22.4186C2.6665 20.3304 2.6665 16.0001 2.6665 16.0001C2.6665 16.0001 2.6665 11.6698 3.21421 9.59873C3.5223 8.45196 4.42945 7.54482 5.57622 7.23673C7.64725 6.6719 15.9827 6.65479 15.9827 6.65479C15.9827 6.65479 24.3182 6.65479 26.3892 7.21961ZM20.2446 16.0001L13.3297 20.0052V11.995L20.2446 16.0001Z" fill="#9EA7B8"/>
+								</svg>
+							</a>
+							<a href="#">
+								<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M16 4C12.7408 4 12.3328 4.0136 11.0528 4.072C9.7752 4.1304 8.9024 4.3336 8.1392 4.6304C7.3392 4.9312 6.6136 5.4032 6.0136 6.0144C5.40338 6.61371 4.93109 7.3388 4.6296 8.1392C4.3344 8.9024 4.1304 9.776 4.072 11.0536C4.0144 12.3328 4 12.74 4 16C4 19.26 4.0136 19.6672 4.072 20.9472C4.1304 22.2248 4.3336 23.0976 4.6304 23.8608C4.9312 24.6608 5.4032 25.3864 6.0144 25.9864C6.61372 26.5966 7.33881 27.0689 8.1392 27.3704C8.9024 27.6664 9.7752 27.8696 11.0528 27.928C12.3328 27.9864 12.7408 28 16 28C19.2592 28 19.6672 27.9864 20.9472 27.928C22.2248 27.8696 23.0976 27.6664 23.8608 27.3696C24.6608 27.0688 25.3864 26.5968 25.9864 25.9856C26.5966 25.3863 27.0689 24.6612 27.3704 23.8608C27.6664 23.0976 27.8696 22.2248 27.928 20.9472C27.9864 19.6672 28 19.2592 28 16C28 12.7408 27.9864 12.3328 27.928 11.0528C27.8696 9.7752 27.6664 8.9024 27.3696 8.1392C27.0683 7.33845 26.596 6.61306 25.9856 6.0136C25.3863 5.40338 24.6612 4.93109 23.8608 4.6296C23.0976 4.3344 22.224 4.1304 20.9464 4.072C19.6672 4.0144 19.26 4 16 4ZM16 6.1624C19.204 6.1624 19.584 6.1744 20.8496 6.232C22.0192 6.2856 22.6544 6.48 23.0776 6.6456C23.6376 6.8624 24.0376 7.1232 24.4576 7.5424C24.8776 7.9624 25.1376 8.3624 25.3544 8.9224C25.5192 9.3456 25.7144 9.9808 25.768 11.1504C25.8256 12.416 25.8376 12.796 25.8376 16C25.8376 19.204 25.8256 19.584 25.768 20.8496C25.7144 22.0192 25.52 22.6544 25.3544 23.0776C25.1623 23.5988 24.8559 24.0704 24.4576 24.4576C24.0705 24.856 23.5989 25.1624 23.0776 25.3544C22.6544 25.5192 22.0192 25.7144 20.8496 25.768C19.584 25.8256 19.2048 25.8376 16 25.8376C12.7952 25.8376 12.416 25.8256 11.1504 25.768C9.9808 25.7144 9.3456 25.52 8.9224 25.3544C8.40116 25.1623 7.92961 24.8559 7.5424 24.4576C7.14414 24.0704 6.8377 23.5988 6.6456 23.0776C6.4808 22.6544 6.2856 22.0192 6.232 20.8496C6.1744 19.584 6.1624 19.204 6.1624 16C6.1624 12.796 6.1744 12.416 6.232 11.1504C6.2856 9.9808 6.48 9.3456 6.6456 8.9224C6.8624 8.3624 7.1232 7.9624 7.5424 7.5424C7.92955 7.14404 8.40113 6.83758 8.9224 6.6456C9.3456 6.4808 9.9808 6.2856 11.1504 6.232C12.416 6.1744 12.796 6.1624 16 6.1624Z" fill="#9EA7B8"/>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M16 20.0042C15.4742 20.0042 14.9536 19.9006 14.4678 19.6994C13.982 19.4982 13.5406 19.2033 13.1688 18.8315C12.797 18.4597 12.502 18.0183 12.3008 17.5325C12.0996 17.0467 11.996 16.526 11.996 16.0002C11.996 15.4744 12.0996 14.9537 12.3008 14.4679C12.502 13.9822 12.797 13.5408 13.1688 13.169C13.5406 12.7971 13.982 12.5022 14.4678 12.301C14.9536 12.0998 15.4742 11.9962 16 11.9962C17.062 11.9962 18.0804 12.4181 18.8313 13.169C19.5822 13.9198 20.004 14.9383 20.004 16.0002C20.004 17.0621 19.5822 18.0806 18.8313 18.8315C18.0804 19.5824 17.062 20.0042 16 20.0042ZM16 9.83221C14.3642 9.83221 12.7953 10.482 11.6386 11.6388C10.4819 12.7955 9.83203 14.3644 9.83203 16.0002C9.83203 17.6361 10.4819 19.2049 11.6386 20.3616C12.7953 21.5184 14.3642 22.1682 16 22.1682C17.6359 22.1682 19.2047 21.5184 20.3615 20.3616C21.5182 19.2049 22.168 17.6361 22.168 16.0002C22.168 14.3644 21.5182 12.7955 20.3615 11.6388C19.2047 10.482 17.6359 9.83221 16 9.83221ZM23.9624 9.72021C23.9624 10.1069 23.8088 10.4777 23.5354 10.7512C23.262 11.0246 22.8911 11.1782 22.5044 11.1782C22.1177 11.1782 21.7469 11.0246 21.4735 10.7512C21.2 10.4777 21.0464 10.1069 21.0464 9.72021C21.0464 9.33352 21.2 8.96267 21.4735 8.68925C21.7469 8.41582 22.1177 8.26221 22.5044 8.26221C22.8911 8.26221 23.262 8.41582 23.5354 8.68925C23.8088 8.96267 23.9624 9.33352 23.9624 9.72021Z" fill="#9EA7B8"/>
+								</svg>
+							</a>
+							<a href="#">
+								<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M28 5.76471V26.2353C28 26.7033 27.8141 27.1522 27.4831 27.4831C27.1522 27.8141 26.7033 28 26.2353 28H5.76471C5.29668 28 4.84782 27.8141 4.51687 27.4831C4.18592 27.1522 4 26.7033 4 26.2353V5.76471C4 5.29668 4.18592 4.84782 4.51687 4.51687C4.84782 4.18592 5.29668 4 5.76471 4H26.2353C26.7033 4 27.1522 4.18592 27.4831 4.51687C27.8141 4.84782 28 5.29668 28 5.76471ZM11.0588 13.1765H7.52941V24.4706H11.0588V13.1765ZM11.3765 9.29412C11.3783 9.02715 11.3276 8.76242 11.2271 8.51506C11.1267 8.2677 10.9785 8.04255 10.791 7.85246C10.6036 7.66237 10.3805 7.51107 10.1346 7.4072C9.88861 7.30332 9.62462 7.24891 9.35765 7.24706H9.29412C8.7512 7.24706 8.23053 7.46273 7.84663 7.84663C7.46273 8.23053 7.24706 8.7512 7.24706 9.29412C7.24706 9.83703 7.46273 10.3577 7.84663 10.7416C8.23053 11.1255 8.7512 11.3412 9.29412 11.3412C9.56111 11.3477 9.82678 11.3016 10.0759 11.2055C10.3251 11.1094 10.5529 10.9651 10.7463 10.7809C10.9396 10.5967 11.0948 10.3762 11.203 10.132C11.3111 9.88775 11.3701 9.62464 11.3765 9.35765V9.29412ZM24.4706 17.6094C24.4706 14.2141 22.3106 12.8941 20.1647 12.8941C19.4621 12.8589 18.7626 13.0086 18.1358 13.3281C17.5091 13.6477 16.9771 14.126 16.5929 14.7153H16.4941V13.1765H13.1765V24.4706H16.7059V18.4635C16.6549 17.8483 16.8487 17.2378 17.2452 16.7646C17.6417 16.2915 18.2089 15.9939 18.8235 15.9365H18.9576C20.08 15.9365 20.9129 16.6424 20.9129 18.4212V24.4706H24.4424L24.4706 17.6094Z" fill="#9EA7B8"/>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div class="menu--mobile__bottom--right">
+						<button class="requestAquote open--requestAquote">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M7 8H17M7 12H11M12 20L8 16H5C3.89543 16 3 15.1046 3 14V6C3 4.89543 3.89543 4 5 4H19C20.1046 4 21 4.89543 21 6V14C21 15.1046 20.1046 16 19 16H16L12 20Z" stroke="#0F67FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+							<span>Request a quote</span>
+						</button>
+						<div class="header--top__contacts">
+							<a href="tel:+48(60)859-09-08" class="phone">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2.5 4.16667C2.5 3.24619 3.24619 2.5 4.16667 2.5H6.89937C7.25806 2.5 7.57651 2.72953 7.68994 3.06981L8.93811 6.81434C9.06926 7.20777 8.89115 7.63776 8.52022 7.82322L6.63917 8.76375C7.55771 10.801 9.19898 12.4423 11.2363 13.3608L12.1768 11.4798C12.3622 11.1088 12.7922 10.9307 13.1857 11.0619L16.9302 12.3101C17.2705 12.4235 17.5 12.7419 17.5 13.1006V15.8333C17.5 16.7538 16.7538 17.5 15.8333 17.5H15C8.09644 17.5 2.5 11.9036 2.5 5V4.16667Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>+48(60)859-09-08</span>
+							</a>
+							<a href="mailto:sale@quartz-prom.net" class="mail">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2.5 6.66675L9.0755 11.0504C9.63533 11.4236 10.3647 11.4236 10.9245 11.0504L17.5 6.66675M4.16667 15.8334H15.8333C16.7538 15.8334 17.5 15.0872 17.5 14.1667V5.83341C17.5 4.91294 16.7538 4.16675 15.8333 4.16675H4.16667C3.24619 4.16675 2.5 4.91294 2.5 5.83341V14.1667C2.5 15.0872 3.24619 15.8334 4.16667 15.8334Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>sale@quartz-prom.net</span>
+							</a>
+							<a target="_blank" href="https://www.google.com/maps/place/POL-AQUA+SA,+Adama+Branickiego+15,+02-972+Warszawa,+%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0/data=!4m2!3m1!1s0x47192d68e232de05:0x8832059d2bc59b72?sa=X&ved=2ahUKEwikmKC6rvqCAxXrVfEDHcFUD90Q8gF6BAgSEAA" class="mail">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M14.714 13.8807C13.9864 14.6083 12.5188 16.0758 11.4134 17.1813C10.6323 17.9624 9.36751 17.9623 8.58646 17.1813C7.50084 16.0957 6.06038 14.6552 5.28587 13.8807C2.68238 11.2772 2.68238 7.05612 5.28587 4.45262C7.88937 1.84913 12.1105 1.84913 14.714 4.45262C17.3175 7.05612 17.3175 11.2772 14.714 13.8807Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M12.4999 9.16667C12.4999 10.5474 11.3806 11.6667 9.99992 11.6667C8.61921 11.6667 7.49992 10.5474 7.49992 9.16667C7.49992 7.78596 8.61921 6.66667 9.99992 6.66667C11.3806 6.66667 12.4999 7.78596 12.4999 9.16667Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								<span>Adama Branickiego 15, 02-972 Warsaw</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main class="main about">
+			<section class="main--header about--header" style="background-image: var(--mainHeaderAbout);">
+				<div class="container">
+					<div class="row">
+						<ul class="breadcrumbs">
+							<li><a href="index.html">Home /</a></li>
+							<li><span>About</span></li>
+						</ul>
+						<h1 class="h1">Company profile</h1>
+						<div class="text--xl">
+							Your partner for solutions made of fused silicay
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about--values">
+				<div class="container">
+					<div class="row">
+						<div class="about--values__wrapper">
+							<div class="about--values__left">
+								<div class="h1">Our Core Values</div>
+								<div class="text--xl">At quartzprom, we stand behind our main 4<br> pillars:</div>
+								<div class="about--values__left--list">
+									<div class="about--values__left--item">
+										<div class="about--values__left--item__title">
+											<img src="img/about/icons/1.svg">
+											<div class="text--xl">Excellence</div>
+										</div>
+										<div class="about--values__left--item__desc text--lg">
+											We are committed to the highest standards of medical excellence. Our dedicated professionals.
+										</div>
+									</div>
+									<div class="about--values__left--item">
+										<div class="about--values__left--item__title">
+											<img src="img/about/icons/2.svg">
+											<div class="text--xl">Empowerment</div>
+										</div>
+										<div class="about--values__left--item__desc text--lg">
+											We believe in treating our customers with compassion, understanding.
+										</div>
+									</div>
+									<div class="about--values__left--item">
+										<div class="about--values__left--item__title">
+											<img src="img/about/icons/3.svg">
+											<div class="text--xl">Integrity</div>
+										</div>
+										<div class="about--values__left--item__desc text--lg">
+											Integrity is the foundation of everything we do. We uphold the highest ethical standards.
+										</div>
+									</div>
+									<div class="about--values__left--item">
+										<div class="about--values__left--item__title">
+											<img src="img/about/icons/4.svg">
+											<div class="text--xl">Innovation</div>
+										</div>
+										<div class="about--values__left--item__desc text--lg">
+											We embrace innovation as a means to improve healthcare. We actively seek out technologies.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="about--values__right">
+								<img srcset="img/about/values-tablet.png 992w, img/about/values-mobile.png 480w" src="img/about/values.png" alt="#">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about--working">
+				<div class="container">
+					<div class="row">
+						<div class="h1 color--accent text-center">How We Are Working</div>
+						<div class="about--working__wrapper">
+							<div class="about--working__item">
+								<div class="about--working__item--left">
+									<div class="about--working__item--icon">
+										<img src="img/about/howWorking/1.svg">
+									</div>
+									<div class="h2 color--accent">Evacuate quartz glass components</div>
+									<div class="text--xl">
+										Quartz glass, also known as fused quartz or fused silica, is composed entirely of amorphous silica (SiO). Its high
+										degree of purity yields superior optical and thermal properties compared to all other types of glass. Laser processing
+										of quartz glass is achieved using either a 10.6 or 9.3 micron CO2 laser.
+									</div>
+								</div>
+								<div class="about--working__item--right">
+									<img srcset="img/about/tablet/1.png 992w, img/about/mobile/1.png 480w" src="img/about/howWorking/1.png" alt="Evacuate quartz glass components">
+								</div>
+							</div>
+							<div class="about--working__item">
+								<div class="about--working__item--left">
+									<div class="about--working__item--icon">
+										<img src="img/about/howWorking/2.svg" >
+									</div>
+									<div class="h2 color--accent">Marking quartz glass</div>
+									<div class="text--xl">
+										Placing glass inscriptions ensures a permanent marking of the product. Such lettering is heat and acid resistant. The
+										inscription is applied to the product by hand with a glass rod.
+									</div>
+								</div>
+								<div class="about--working__item--right">
+									<img srcset="img/about/tablet/2.png 992w, img/about/mobile/2.png 480w" src="img/about/howWorking/2.png" alt="Evacuate quartz glass components">
+								</div>
+							</div>
+							<div class="about--working__item">
+								<div class="about--working__item--left">
+									<div class="about--working__item--icon">
+										<img src="img/about/howWorking/3.svg" >
+									</div>
+									<div class="h2 color--accent">Construction of quartz glass apparatus and components</div>
+									<div class="text--xl">
+										We are your partner from planning to design and manufacturing of quartz glass components and apparatus. We design (3D
+										CAD SolidWorks) your solutions – single pieces or also production optimized for serial productions
+									</div>
+								</div>
+								<div class="about--working__item--right">
+									<img srcset="img/about/tablet/3.png 992w, img/about/mobile/3.png 480w" src="img/about/howWorking/3.png" alt="Evacuate quartz glass components">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="main--form section" style="background-image: var(--form_bg);">
+				<div class="container">
+					<div class="row">
+						<div class="h1">Get In Touch.</div>
+						<form action="#">
+							<div class="main--form__block">
+								<label>Full Name<span class="color--accent">*</span></label>
+								<span class="wpcf7-form-control-wrap" data-name="fio">
+									<input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="fio" aria-required="true" aria-invalid="false" placeholder="Enter your name..." value="" type="text" name="fio">
+								</span>
+							</div>
+							<div class="main--form__block">
+								<label>Job Position</label>
+								<span class="wpcf7-form-control-wrap" data-name="job">
+									<input size="40" class="wpcf7-form-control wpcf7-text" id="job" aria-invalid="false" placeholder="Enter your job position..." value="" type="text" name="job">
+								</span>
+							</div>
+							<div class="main--form__block">
+								<label>Email Address<span class="color--accent">*</span></label>
+								<span class="wpcf7-form-control-wrap" data-name="email">
+									<input size="40" class="wpcf7-form-control wpcf7-email wpcf7-text wpcf7-validates-as-email" id="email" aria-invalid="false" placeholder="Enter your email address..." value="" type="email" name="email">
+								</span>
+							</div>
+							<div class="main--form__block">
+								<label>Phone Number <span class="color--accent">*</span></label>
+								<span class="wpcf7-form-control-wrap" data-name="tel">
+									<input size="40" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" id="tel" aria-required="true" aria-invalid="false" placeholder="Enter your phone number..." value="" type="tel" name="tel">
+								</span>
+							</div>
+							<div class="main--form__block">
+								<label>Message</label>
+								<span class="wpcf7-form-control-wrap" data-name="textarea">
+									<textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" id="textarea" aria-invalid="false" placeholder="Enter your message as clear as possible..." name="textarea"></textarea>
+								</span>
+							</div>
+							<div class="main--form__footer">
+								<div class="main--form__check">
+									<input type="checkbox" class="custom-checkbox" id="check1" name="check1" value="yes">
+									<label class="check" for="check1"><span>I have agreed to the <a href="#">Terms & Conditions</a></span></label>
+								</div>
+								<div class="main--form__button">
+									<button class="button wpcf7-form-control wpcf7-submit" type="submit">
+										<span>Submit Form</span>
+										<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_122_6058)">
+												<path d="M8.59 7.91L13.17 12.5L8.59 17.09L10 18.5L16 12.5L10 6.5L8.59 7.91Z" fill="white"/>
+											</g>
+											<defs>
+												<clipPath id="clip0_122_6058">
+													<rect width="24" height="24" fill="white" transform="translate(24 24.5) rotate(-180)"/>
+												</clipPath>
+											</defs>
+										</svg>
+											
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer--wrapper" style="background-image: url(img/footer-logoA.png);">
+						<div class="footer--top">
+							<div class="footer--top__block footer--top__left">
+								<div class="footer--top__block--logo">
+									<img src="img/logo-footer.svg" alt="#">
+								</div>
+								<div class="footer--top__block--text text--lg">Optical Components manufacturing solutions</div>
+								<div class="footer--top__block--social social">
+									<a href="#">
+										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M29.3332 16.0807C29.3332 8.67184 23.3643 2.6665 15.9998 2.6665C8.63539 2.6665 2.6665 8.67184 2.6665 16.0807C2.6665 22.7776 7.54117 28.327 13.9163 29.3332V19.959H10.5314V16.0798H13.9163V13.1252C13.9163 9.76339 15.9065 7.90562 18.9527 7.90562C20.4105 7.90562 21.9376 8.16784 21.9376 8.16784V11.4692H20.2549C18.599 11.4692 18.0834 12.5038 18.0834 13.5652V16.0807H21.7812L21.1901 19.9581H18.0834V29.3332C24.4585 28.327 29.3332 22.7776 29.3332 16.0807Z" fill="#9EA7B8"/>
+										</svg>
+									</a>
+									<a href="#">
+										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M26.3892 7.21961C27.536 7.52769 28.4431 8.43485 28.7512 9.58161C29.3161 11.6698 29.3332 16.0001 29.3332 16.0001C29.3332 16.0001 29.3332 20.3476 28.7683 22.4186C28.4603 23.5654 27.5531 24.4725 26.4063 24.7806C24.3353 25.3454 15.9998 25.3454 15.9998 25.3454C15.9998 25.3454 7.66436 25.3454 5.59333 24.7806C4.44656 24.4725 3.53942 23.5654 3.23133 22.4186C2.6665 20.3304 2.6665 16.0001 2.6665 16.0001C2.6665 16.0001 2.6665 11.6698 3.21421 9.59873C3.5223 8.45196 4.42945 7.54482 5.57622 7.23673C7.64725 6.6719 15.9827 6.65479 15.9827 6.65479C15.9827 6.65479 24.3182 6.65479 26.3892 7.21961ZM20.2446 16.0001L13.3297 20.0052V11.995L20.2446 16.0001Z" fill="#9EA7B8"/>
+										</svg>
+									</a>
+									<a href="#">
+										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M16 4C12.7408 4 12.3328 4.0136 11.0528 4.072C9.7752 4.1304 8.9024 4.3336 8.1392 4.6304C7.3392 4.9312 6.6136 5.4032 6.0136 6.0144C5.40338 6.61371 4.93109 7.3388 4.6296 8.1392C4.3344 8.9024 4.1304 9.776 4.072 11.0536C4.0144 12.3328 4 12.74 4 16C4 19.26 4.0136 19.6672 4.072 20.9472C4.1304 22.2248 4.3336 23.0976 4.6304 23.8608C4.9312 24.6608 5.4032 25.3864 6.0144 25.9864C6.61372 26.5966 7.33881 27.0689 8.1392 27.3704C8.9024 27.6664 9.7752 27.8696 11.0528 27.928C12.3328 27.9864 12.7408 28 16 28C19.2592 28 19.6672 27.9864 20.9472 27.928C22.2248 27.8696 23.0976 27.6664 23.8608 27.3696C24.6608 27.0688 25.3864 26.5968 25.9864 25.9856C26.5966 25.3863 27.0689 24.6612 27.3704 23.8608C27.6664 23.0976 27.8696 22.2248 27.928 20.9472C27.9864 19.6672 28 19.2592 28 16C28 12.7408 27.9864 12.3328 27.928 11.0528C27.8696 9.7752 27.6664 8.9024 27.3696 8.1392C27.0683 7.33845 26.596 6.61306 25.9856 6.0136C25.3863 5.40338 24.6612 4.93109 23.8608 4.6296C23.0976 4.3344 22.224 4.1304 20.9464 4.072C19.6672 4.0144 19.26 4 16 4ZM16 6.1624C19.204 6.1624 19.584 6.1744 20.8496 6.232C22.0192 6.2856 22.6544 6.48 23.0776 6.6456C23.6376 6.8624 24.0376 7.1232 24.4576 7.5424C24.8776 7.9624 25.1376 8.3624 25.3544 8.9224C25.5192 9.3456 25.7144 9.9808 25.768 11.1504C25.8256 12.416 25.8376 12.796 25.8376 16C25.8376 19.204 25.8256 19.584 25.768 20.8496C25.7144 22.0192 25.52 22.6544 25.3544 23.0776C25.1623 23.5988 24.8559 24.0704 24.4576 24.4576C24.0705 24.856 23.5989 25.1624 23.0776 25.3544C22.6544 25.5192 22.0192 25.7144 20.8496 25.768C19.584 25.8256 19.2048 25.8376 16 25.8376C12.7952 25.8376 12.416 25.8256 11.1504 25.768C9.9808 25.7144 9.3456 25.52 8.9224 25.3544C8.40116 25.1623 7.92961 24.8559 7.5424 24.4576C7.14414 24.0704 6.8377 23.5988 6.6456 23.0776C6.4808 22.6544 6.2856 22.0192 6.232 20.8496C6.1744 19.584 6.1624 19.204 6.1624 16C6.1624 12.796 6.1744 12.416 6.232 11.1504C6.2856 9.9808 6.48 9.3456 6.6456 8.9224C6.8624 8.3624 7.1232 7.9624 7.5424 7.5424C7.92955 7.14404 8.40113 6.83758 8.9224 6.6456C9.3456 6.4808 9.9808 6.2856 11.1504 6.232C12.416 6.1744 12.796 6.1624 16 6.1624Z" fill="#9EA7B8"/>
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M16 20.0042C15.4742 20.0042 14.9536 19.9006 14.4678 19.6994C13.982 19.4982 13.5406 19.2033 13.1688 18.8315C12.797 18.4597 12.502 18.0183 12.3008 17.5325C12.0996 17.0467 11.996 16.526 11.996 16.0002C11.996 15.4744 12.0996 14.9537 12.3008 14.4679C12.502 13.9822 12.797 13.5408 13.1688 13.169C13.5406 12.7971 13.982 12.5022 14.4678 12.301C14.9536 12.0998 15.4742 11.9962 16 11.9962C17.062 11.9962 18.0804 12.4181 18.8313 13.169C19.5822 13.9198 20.004 14.9383 20.004 16.0002C20.004 17.0621 19.5822 18.0806 18.8313 18.8315C18.0804 19.5824 17.062 20.0042 16 20.0042ZM16 9.83221C14.3642 9.83221 12.7953 10.482 11.6386 11.6388C10.4819 12.7955 9.83203 14.3644 9.83203 16.0002C9.83203 17.6361 10.4819 19.2049 11.6386 20.3616C12.7953 21.5184 14.3642 22.1682 16 22.1682C17.6359 22.1682 19.2047 21.5184 20.3615 20.3616C21.5182 19.2049 22.168 17.6361 22.168 16.0002C22.168 14.3644 21.5182 12.7955 20.3615 11.6388C19.2047 10.482 17.6359 9.83221 16 9.83221ZM23.9624 9.72021C23.9624 10.1069 23.8088 10.4777 23.5354 10.7512C23.262 11.0246 22.8911 11.1782 22.5044 11.1782C22.1177 11.1782 21.7469 11.0246 21.4735 10.7512C21.2 10.4777 21.0464 10.1069 21.0464 9.72021C21.0464 9.33352 21.2 8.96267 21.4735 8.68925C21.7469 8.41582 22.1177 8.26221 22.5044 8.26221C22.8911 8.26221 23.262 8.41582 23.5354 8.68925C23.8088 8.96267 23.9624 9.33352 23.9624 9.72021Z" fill="#9EA7B8"/>
+										</svg>
+									</a>
+									<a href="#">
+										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M28 5.76471V26.2353C28 26.7033 27.8141 27.1522 27.4831 27.4831C27.1522 27.8141 26.7033 28 26.2353 28H5.76471C5.29668 28 4.84782 27.8141 4.51687 27.4831C4.18592 27.1522 4 26.7033 4 26.2353V5.76471C4 5.29668 4.18592 4.84782 4.51687 4.51687C4.84782 4.18592 5.29668 4 5.76471 4H26.2353C26.7033 4 27.1522 4.18592 27.4831 4.51687C27.8141 4.84782 28 5.29668 28 5.76471ZM11.0588 13.1765H7.52941V24.4706H11.0588V13.1765ZM11.3765 9.29412C11.3783 9.02715 11.3276 8.76242 11.2271 8.51506C11.1267 8.2677 10.9785 8.04255 10.791 7.85246C10.6036 7.66237 10.3805 7.51107 10.1346 7.4072C9.88861 7.30332 9.62462 7.24891 9.35765 7.24706H9.29412C8.7512 7.24706 8.23053 7.46273 7.84663 7.84663C7.46273 8.23053 7.24706 8.7512 7.24706 9.29412C7.24706 9.83703 7.46273 10.3577 7.84663 10.7416C8.23053 11.1255 8.7512 11.3412 9.29412 11.3412C9.56111 11.3477 9.82678 11.3016 10.0759 11.2055C10.3251 11.1094 10.5529 10.9651 10.7463 10.7809C10.9396 10.5967 11.0948 10.3762 11.203 10.132C11.3111 9.88775 11.3701 9.62464 11.3765 9.35765V9.29412ZM24.4706 17.6094C24.4706 14.2141 22.3106 12.8941 20.1647 12.8941C19.4621 12.8589 18.7626 13.0086 18.1358 13.3281C17.5091 13.6477 16.9771 14.126 16.5929 14.7153H16.4941V13.1765H13.1765V24.4706H16.7059V18.4635C16.6549 17.8483 16.8487 17.2378 17.2452 16.7646C17.6417 16.2915 18.2089 15.9939 18.8235 15.9365H18.9576C20.08 15.9365 20.9129 16.6424 20.9129 18.4212V24.4706H24.4424L24.4706 17.6094Z" fill="#9EA7B8"/>
+										</svg>
+									</a>
+								</div>
+								<button class="button open--requestAquote">Request a quote</button>
+								<div class="footer--top__block--text__mini">All enquiries are accepted in English, Polish and German.</div>
+								<div class="header--top__contacts">
+									<a href="tel:+48(60)859-09-08" class="phone">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M2.5 4.16667C2.5 3.24619 3.24619 2.5 4.16667 2.5H6.89937C7.25806 2.5 7.57651 2.72953 7.68994 3.06981L8.93811 6.81434C9.06926 7.20777 8.89115 7.63776 8.52022 7.82322L6.63917 8.76375C7.55771 10.801 9.19898 12.4423 11.2363 13.3608L12.1768 11.4798C12.3622 11.1088 12.7922 10.9307 13.1857 11.0619L16.9302 12.3101C17.2705 12.4235 17.5 12.7419 17.5 13.1006V15.8333C17.5 16.7538 16.7538 17.5 15.8333 17.5H15C8.09644 17.5 2.5 11.9036 2.5 5V4.16667Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg>
+										<span>+48(60)859-09-08</span>
+									</a>
+									<a href="mailto:sale@quartz-prom.net" class="mail">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M2.5 6.66675L9.0755 11.0504C9.63533 11.4236 10.3647 11.4236 10.9245 11.0504L17.5 6.66675M4.16667 15.8334H15.8333C16.7538 15.8334 17.5 15.0872 17.5 14.1667V5.83341C17.5 4.91294 16.7538 4.16675 15.8333 4.16675H4.16667C3.24619 4.16675 2.5 4.91294 2.5 5.83341V14.1667C2.5 15.0872 3.24619 15.8334 4.16667 15.8334Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg>
+										<span>sale@quartz-prom.net</span>
+									</a>
+									<a target="_blank" href="https://www.google.com/maps/place/POL-AQUA+SA,+Adama+Branickiego+15,+02-972+Warszawa,+%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0/data=!4m2!3m1!1s0x47192d68e232de05:0x8832059d2bc59b72?sa=X&amp;ved=2ahUKEwikmKC6rvqCAxXrVfEDHcFUD90Q8gF6BAgSEAA" class="mail">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M14.714 13.8807C13.9864 14.6083 12.5188 16.0758 11.4134 17.1813C10.6323 17.9624 9.36751 17.9623 8.58646 17.1813C7.50084 16.0957 6.06038 14.6552 5.28587 13.8807C2.68238 11.2772 2.68238 7.05612 5.28587 4.45262C7.88937 1.84913 12.1105 1.84913 14.714 4.45262C17.3175 7.05612 17.3175 11.2772 14.714 13.8807Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M12.4999 9.16667C12.4999 10.5474 11.3806 11.6667 9.99992 11.6667C8.61921 11.6667 7.49992 10.5474 7.49992 9.16667C7.49992 7.78596 8.61921 6.66667 9.99992 6.66667C11.3806 6.66667 12.4999 7.78596 12.4999 9.16667Z" stroke="#00226C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg>
+										<span>Adama Branickiego 15, 02-972 Warsaw</span>
+									</a>
+								</div>
+							</div>
+							<div class="footer--top__block footer--top__center">
+								<div class="footer--top__block--title text--2xl">Main Page</div>
+								<ul class="menu">
+									<li><a href="#">Homepage</a></li>
+									<li><a href="#">About </a></li>
+									<li><a href="#">Products </a></li>
+									<li><a href="#">Delivery</a></li>
+									<li><a href="#">Research</a></li>
+									<li><a href="#">Engineering</a></li>
+									<li><a href="#">Contacts Us</a></li>
+								</ul>
+							</div>
+							<div class="footer--top__block footer--top__right">
+								<div class="footer--top__block--title text--2xl">Products </div>
+								<div class="footer--top__block--links">
+									<a href="#">Lenses</a>
+									<a href="#">Aspheres</a>
+									<a href="#">Cylindrical lenses</a>
+									<a href="#">Prisms</a>
+									<a href="#">Optical windows</a>
+									<a href="#">Optical filters & coatings</a>
+									<a href="#">Optical mirrors </a>
+									<a href="#">IR & Laser optical components</a>
+									<a href="#">UV optics </a>
+									<a href="#">Laser crystals</a>
+									<a href="#">Plastic injected lens </a>
+									<a href="#">Non-linear crystals</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer--bottom">
+							<div class="footer--bottom__left">
+								<div class="copyright">Copyright© 2023 quartzprom</div>
+								<svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="6" height="6" fill="#5D6A85"/>
+								</svg>
+								<a href="#">Privacy Policy</a>
+								<svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="6" height="6" fill="#5D6A85"/>
+								</svg>
+								<a href="#">Terms & Conditions</a>
+							</div>
+							<div class="footer--bottom__right">
+								<img src="img/developedBy.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="modal modal--requestAquote">
+		<div class="modal--wrapper">
+			<div class="modal--close">
+				<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1 13L13 1M1 1L13 13" stroke="#0F67FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</div>
+			<div class="main--form modal--form">
+				<div class="h1">Request a quote</div>
+				<form action="#">
+					<div class="main--form__block">
+						<label>Full Name<span class="color--accent">*</span></label>
+						<span class="wpcf7-form-control-wrap" data-name="fio">
+							<input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="fio1" aria-required="true" aria-invalid="false" placeholder="Enter your name..." value="" type="text" name="fio1">
+						</span>
+					</div>
+					<div class="main--form__block">
+						<label>Job Position</label>
+						<span class="wpcf7-form-control-wrap" data-name="job">
+							<input size="40" class="wpcf7-form-control wpcf7-text" id="job1" aria-invalid="false" placeholder="Enter your job position..." value="" type="text" name="job1">
+						</span>
+					</div>
+					<div class="main--form__block">
+						<label>Email Address<span class="color--accent">*</span></label>
+						<span class="wpcf7-form-control-wrap" data-name="email">
+							<input size="40" class="wpcf7-form-control wpcf7-email wpcf7-text wpcf7-validates-as-email" id="email1" aria-invalid="false" placeholder="Enter your email address..." value="" type="email" name="email1">
+						</span>
+					</div>
+					<div class="main--form__block">
+						<label>Phone Number <span class="color--accent">*</span></label>
+						<span class="wpcf7-form-control-wrap" data-name="tel">
+							<input size="40" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" id="tel1" aria-required="true" aria-invalid="false" placeholder="Enter your phone number..." value="" type="tel" name="tel1">
+						</span>
+					</div>
+					<div class="main--form__block">
+						<label>Message</label>
+						<span class="wpcf7-form-control-wrap" data-name="textarea">
+							<textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" id="textarea1" aria-invalid="false" placeholder="Enter your message as clear as possible..." name="textarea1"></textarea>
+						</span>
+					</div>
+					<div class="main--form__footer">
+						<div class="main--form__check">
+							<input type="checkbox" class="custom-checkbox" id="check2" name="check2" value="yes">
+							<label class="check" for="check2"><span>I have agreed to the <a href="#">Terms & Conditions</a></span></label>
+						</div>
+						<div class="main--form__button">
+							<button class="button wpcf7-form-control wpcf7-submit" type="submit">
+								<span>Submit Form</span>
+								<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_122_6058)">
+										<path d="M8.59 7.91L13.17 12.5L8.59 17.09L10 18.5L16 12.5L10 6.5L8.59 7.91Z" fill="white"/>
+									</g>
+									<defs>
+										<clipPath id="clip0_122_6058">
+											<rect width="24" height="24" fill="white" transform="translate(24 24.5) rotate(-180)"/>
+										</clipPath>
+									</defs>
+								</svg>
+									
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
